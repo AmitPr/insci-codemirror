@@ -1,3 +1,4 @@
+/* eslint-disable */
 // Type definitions for codemirror
 // Project: https://github.com/marijnh/CodeMirror
 // Definitions by: mihailik <https://github.com/mihailik>
@@ -1940,5 +1941,9 @@ declare namespace CodeMirror {
         controls whether it is copied (false) or moved (true). By default, this
         is enabled by alt-clicking on Mac OS, and ctrl-clicking elsewhere. */
         moveOnDrag?: boolean;
+    }
+    interface scrollbarModel {
+        simple?: any;
+        overlay?: any;
     }
 }
